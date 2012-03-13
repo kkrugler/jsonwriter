@@ -13,3 +13,10 @@ documented on the following web pages:
  * http://badgerfish.ning.com/
  * http://www.bramstein.nl/xsltjson/
 
+To build, use Ant with the 'jar' target:
+
+ % cd jsonwriter
+ % ant clean jar
+ 
+The resulting jar is at build/jsonwriter-1.0-SNAPSHOT.jar
+
