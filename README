@@ -1,0 +1,15 @@
+JSONWriter supports the generation of JSON format text from a Dom4J Document.
+
+This first pass implementation doesn't handle namespaces, is basically
+just a quick hack of XMLWriter, has very few JUnit tests (like XMLWriter),
+and is almost completely devoid of meaningful comments. It also depends
+on Java 5.0, whereas the 1.6.1 source was designed for Java 1.3.
+
+On the plus side, it supports at least my own understanding of the three
+JSON formats: Basic Output, RabbitFish and BabbleFish, which are thinly
+documented on the following web pages:
+
+ * http://json.org/
+ * http://badgerfish.ning.com/
+ * http://www.bramstein.nl/xsltjson/
+
